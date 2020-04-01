@@ -1,8 +1,3 @@
---
-Girish kumar Kadapa - 40083533
-Darshan Dhananjay	- 40079241
-Aravind Ashoka Reddy- 40103248
-Gursimran Singh	-	  40080981
 
 This project aims to experiement the Different Machine learning models on the dataset and compare each of them.
 Note:Please place all the dataset files in the current folder where the execution files are placed.
