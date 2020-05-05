@@ -582,7 +582,7 @@ class entryPoint():
 
 entrypoint = entryPoint()
 
-#GIRISH
+
 temp = entrypoint.diabetic_retinopaty()
 best_report = entrypoint.getbest(temp,'Diabetic Retinopathy')
 Final_report = temp
@@ -595,7 +595,6 @@ Final_report = pd.concat([Final_report,temp])
 # In[18]:
 
 
-# ##Gursimran SIngh
 temp = entrypoint.thoratic()
 best_report = pd.concat([best_report,entrypoint.getbest(temp,'Thoracic Surgery Data')])
 Final_report = pd.concat([Final_report,temp])
@@ -612,7 +611,6 @@ Final_report = pd.concat([Final_report,temp])
 # In[19]:
 
 
-# ##Aravind
 temp = entrypoint.Adults_Salary()
 best_report = pd.concat([best_report,entrypoint.getbest(temp,'Adult_Salary')])
 Final_report = temp
@@ -625,7 +623,6 @@ Final_report = pd.concat([Final_report,temp])
 # In[20]:
 
 
-# ##Darshan
 temp = entrypoint.creditCardDataset()
 best_report = pd.concat([best_report,entrypoint.getbest(temp,'Credit_Card')])
 Final_report = pd.concat([Final_report,temp])
